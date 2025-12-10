@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(to right, #6a0dad, #0000ff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.correct {
+  background-color: green !important;
+  color: white !important;
+}
+
+.incorrect {
+  background-color: red !important;
+  color: white !important;
+}
+
+#progress-bar {
+  transition: width 0.3s ease;
+}
